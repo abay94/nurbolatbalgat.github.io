@@ -1,0 +1,73 @@
+body{
+  margin:0;
+  background-image: url(../images/guitar1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    display: inline-block;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.a{
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.a:hover {
+  color: gold;
+  font-size: 20px;
+}
+
+.active {
+    background-color: #000000;
+}
+
+.lin{
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.h1{
+  margin-top: 145px;
+  margin-left: 90px;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 4rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.p1{
+  margin-top: 0px;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin-left: 1100px;
+  margin-right: 90px;
+  font-size: 2rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
